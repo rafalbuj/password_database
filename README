@@ -1,1 +1,8 @@
-Simple, effective password database written in Python using Pycrypt. Encrypts passwords entered, decrypts them upon entering the main password for the database, and has a self-destruct function triggered by too many failed attempts.
+Simple, effective password database written in Python using Pycrypt. 
+Encrypts passwords entered, decrypts them upon entering the main password for the database, 
+and has a self-destruct function triggered by too many failed attempts.
+It will create a hidden file named pass.txt and a hidden file named accounts.txt the first time you run it. 
+You'll be asked to enter a main password for the database, which will be encrypted and stored in pass.txt. 
+The accounts.txt will not be encrypted but will only contain the accounts' names that are stored in pass.txt. 
+You have the option of viewing the accounts in case you've forgotten what you've stored in pass.txt. If you enter
+your password wrong 5 times, the script will remove the pass.txt.  
