@@ -1,0 +1,1 @@
+Simple, effective password database written in Python using Pycrypt. Encrypts passwords entered, decrypts them upon entering the main password for the database, and has a self-destruct function triggered by too many failed attempts.
